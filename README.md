@@ -1,6 +1,5 @@
 # Visor de Actividad de Usuario en GitHub
-
-Este proyecto es un script en Python que permite visualizar los eventos públicos recientes de cualquier usuario de GitHub utilizando la API oficial.
+Este proyecto es una interfaz de línea de comandos (CLI) escrita en Python que permite visualizar los eventos públicos más recientes de cualquier usuario de GitHub utilizando la [API oficial de GitHub](https://docs.github.com/en/rest/activity/events?apiVersion=2022-11-28).Este reto forma parte de la iniciativa [Roadmap Projects](https://roadmap.sh/projects/github-user-activity).
 
 ## Características
 - Consulta los eventos públicos de un usuario de GitHub.
@@ -8,13 +7,19 @@ Este proyecto es un script en Python que permite visualizar los eventos público
 - Permite elegir cuántos eventos mostrar.
 - Manejo de errores comunes (usuario no encontrado, sin actividad, problemas de conexión).
 
-## Uso
-1. Ejecuta el script en tu terminal:
+## Instalación y Uso
+1. Clona este repositorio o descarga el archivo:
     ```bash
-    python nombre_del_script.py
+    git clone https://github.com/Sodi0/github-user-activity.git
+
+    cd github-user-activity
     ```
-2. Ingresa el nombre de usuario de GitHub cuando se te solicite.
-3. Especifica cuántos eventos deseas ver (opcional, por defecto 5).
+2. Ejecuta el script en tu terminal:
+    ```bash
+    python github-user-activity.py
+    ```
+3. Ingresa el nombre de usuario de GitHub cuando se te solicite.
+4. Especifica cuántos eventos deseas ver (opcional, por defecto 5).
 
 ## Ejemplo de salida
 
@@ -33,6 +38,7 @@ Cuantos datos quieres ver? (por defecto 5): 3
 ## Requisitos
 
 - Python 3.x
+- Conexión a Internet.
 
 ## Notas
 
