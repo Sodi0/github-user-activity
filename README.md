@@ -44,6 +44,3 @@ Cuantos datos quieres ver? (por defecto 5): 3
 
 - Utiliza la API pública de GitHub, por lo que está sujeta a límites de uso.
 - No requiere autenticación para eventos públicos.
-
-## Licencia
-Este proyecto se distribuye bajo la licencia MIT.
